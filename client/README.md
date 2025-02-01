@@ -9,3 +9,29 @@ Currently, two official plugins are available:
 
 <!-- npx tailwindcss init -p  -->
 1. tailwindcss ^3.4.17 is required to run
+
+<!-- Folder Structure Description (src) -->
+src/
+├── assets/                # Stores images, icons, and static files  
+├── components/            # Contains reusable UI components  
+│   ├── button.jsx  
+│   ├── ...  
+├── pages/                 # Defines different sections of the app  
+│   ├── Home.jsx  
+│   ├── Properties.jsx  
+│   ├── PropertyDetails.jsx  
+│   ├── About.jsx  
+│   └── Contact.jsx  
+├── lib/                   # Manages API calls and utility functions  
+│   ├── api-client.js  
+│   ├── utils.js  
+├── store/                 # Handles global state management  
+│   ├── slices/  
+│   │   └── auth-slice.js  
+│   └── index.js  
+├── utils/                 # Stores reusable helper functions and constants  
+│   └── constants.js  
+├── App.css                # Global styles  
+├── App.jsx                # Main app component  
+├── index.css              # Base styles  
+└── index.jsx              # Entry point of the application  
