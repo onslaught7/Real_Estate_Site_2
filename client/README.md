@@ -13,9 +13,10 @@ Currently, two official plugins are available:
 <!-- Folder Structure Description (src) -->
 src/
 ├── assets/                # Stores images, icons, and static files  
-├── components/            # Contains reusable UI components  
-│   ├── button.jsx  
-│   ├── ...  
+├── components/ 
+|   └── ui/           # Contains reusable UI components  
+|       └── Navbar.jsx
+│       └── button.jsx    
 ├── pages/                 # Defines different sections of the app  
 │   ├── Home.jsx  
 │   ├── Properties.jsx  

@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
+    "@vitejs/plugin-react": "^4.3.4",
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "libnpmexec": "^10.0.0",
     "lucide-react": "^0.474.0",
     "react": "^18.3.1",
